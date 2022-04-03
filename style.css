@@ -10,6 +10,8 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
 }
 
 .header-left {
@@ -20,6 +22,7 @@ body {
 
 .header-links {
     display: flex;
+    gap: 20px;
     list-style: none;
     margin: 0;
     padding: 0;
