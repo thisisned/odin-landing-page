@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 100px;
+    padding: 15px 90px;
 }
 
 .header-left {
@@ -37,7 +37,11 @@ body {
     display: flex;
     gap: 30px;
     align-items: center;
-    padding: 15px 100px;
+    padding: 100px 90px;
+}
+
+.hero-left > * {
+    margin: 5px 0;
 }
 
 .hero-headline {
@@ -59,11 +63,12 @@ body {
     height: 40px;
     width: 140px;
     border-radius: 10px;
+    border: none;
 }
 
 .hero-right > img {
-    height: 200px;
-    width: 550px;
+    height: 250px;
+    width: 500px;
     object-fit: cover;
 }
 
@@ -73,6 +78,6 @@ body {
     background-color: #1F2937;
 }
 
-* {
+/* * {
     border: 1px solid black;
-}
+} */
