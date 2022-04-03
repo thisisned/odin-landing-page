@@ -40,6 +40,27 @@ body {
     padding: 15px 100px;
 }
 
+.hero-headline {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-left > button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+}
+
 .hero-right > img {
     height: 200px;
     width: 550px;
