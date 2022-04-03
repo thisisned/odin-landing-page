@@ -42,6 +42,7 @@ body {
 
 .hero-left > * {
     margin: 5px 0;
+    padding: 5px;
 }
 
 .hero-headline {
@@ -106,11 +107,35 @@ body {
     margin-top: 10px;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 150px 200px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-attribution {
+    width: 100%;
+    text-align: right;
+    font-size: 26px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
 
 .dark {
     background-color: #1F2937;
 }
 
-* {
+/* * {
     border: 1px solid black;
-}
+} */
