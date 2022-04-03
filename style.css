@@ -1,7 +1,6 @@
 body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -11,7 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 25px;
+    padding: 15px 100px;
 }
 
 .header-left {
@@ -33,6 +32,21 @@ body {
     color: #E5E7EB;
     text-decoration: none;
 }
+
+.hero {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 15px 100px;
+}
+
+.hero-right > img {
+    height: 200px;
+    width: 550px;
+    object-fit: cover;
+}
+
+
 
 .dark {
     background-color: #1F2937;
